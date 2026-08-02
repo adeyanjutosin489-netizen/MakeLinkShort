@@ -1,6 +1,9 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "NIXPACKS",
+    "nixpacks": {
+      "pkgs": ["python311"]
+    }
   },
   "deploy": {
     "startCommand": "python -u main.py",
